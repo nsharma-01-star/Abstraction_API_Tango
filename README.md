@@ -1,6 +1,6 @@
 # Abstraction_API_Tango
 
-## Note This is a reproduction project as part of the MSR course 2021/22 at UniKo, CS department, SoftLang Team
+## Note This is a enhancement project as part of the MSR course 2021/22 at UniKo, CS department, SoftLang Team
 
 ## Names of team/students Team: Tango 
 ## Members: 
@@ -9,47 +9,58 @@
 * Shweta Mishra (smishra@uni-koblenz.de ) 
 
 ## Baseline study: 
-### Aspect of the reproduction project: Data collection and recognition of one dependency pair
+### Aspect of the enhancement project: How could projects with multiple POM files impact dependency/usage analysis?
+
 
 ### Input data: 
 The java code aims at mining git repositories with following criteria
 * A repository with 100 stars and 100 commits
 * A repository with more than two contributors
-* A repository with  at least one source directory
+* A repository with at least one source directory
+* A repository with one POM file
 
 ### Output data: 
 Collected repositories
-* Please find Temp folder which contains all the output jar files for the collected repo - https://drive.google.com/drive/folders/1jn0jsFZPQl-6vnHop8-VUNA1Lmps3DD5?usp=sharing
-* The csv generated can be found in the output folder - https://github.com/nsharma-01-star/applying_api_tango/tree/main/applying-apis-main/output
-* The csv files with detected dependency pairs can be found in the dependency_pair_replication_team_tango - https://github.com/nsharma-01-star/applying_api_tango/tree/main/applying-apis-main/depenedency_pair_replication_team_tango
+* The csv generated can be found in the output folder - https://github.com/nsharma-01-star/Abstraction_API_Tango/tree/main/output
 
-## Findings of replication 
+## Findings of enhancements 
 ### Process delta:
- * No modification done on the original code used for replication.
+ * RepositoriesPicker modified to exclude repositories with multiple POM files - https://github.com/nsharma-01-star/Abstraction_API_Tango/blob/main/src/main/java/de/uni_koblenz/gorjatschev/applyingapis/RepositoriesPicker.java
 
 ### Output delta:
-* The code crashed after it was up for close to 72 hours. However, the following csv files were generated
-  * Original work found 19000 repositories with at least 100 stars, we found 19878 Java git repositories with at least 100 stars.
-  * Original work filtered 4018 repositories with 100 stars, 2 contributors, 100 commits and one POM file, we found 4288 Java GitHub repositories with at least 100    stars and one POM file.
-  * 3778 out of the 4018 repositories were found to be parsable in original work, we were able to filter 3777 parsable GitHub reposotories with src/main/java.
-  *  dependencies.csv - Original work produced 43798 different dependencies out of 3542 repositories, We found 46101 different dependencies out of 3783 repositories.
-  *  dependencies_with_mcrTags.csv - We found 30704 entries with mcrTags.
-  *  repositories_collected.csv - We found 4288 repositories.
-  *  repositories_with_dependencies.csv - We found 3783 repositories with dependencies.
-  *  repositories_with_mcrTags.csv - Original work found 3532 repositories with mcrTags. We found 3766 repositories with mcrTags.
+* The code ran for 19 hour(s), 37 mintues(s) and 38 second(s). However, the following csv files were generated
+  * Original work found 19000 repositories with at least 100 stars, we found 19980 Java git repositories with at least 100 stars.
+  * Original work filtered 4018 repositories with 100 stars, 2 contributors, 100 commits, we found 1596 Java GitHub repositories with at least 100 stars and one POM file.
+  *  dependencies.csv - Original work produced 43798 different dependencies out of 3542 repositories, We found 3562 different dependencies out of 1596 repositories.
+  *  dependencies_with_mcrTags.csv - We found 196 entries with mcrTags.
+  *  repositories_collected.csv - We found 1596 repositories.
+  *  repositories_with_dependencies.csv - We found 903 repositories with dependencies.
+  *  repositories_with_mcrTags.csv - Original work found 3532 repositories with mcrTags. We found 499 repositories with mcrTags.
+  *  dependencies_counted.csv- We found 3561 dependencies.
+  *  dependencies_pair_counted.csv - We found 37 pairs.
+  *  dependencies_sets_counted.csv -  We found 896 sets.
+  *  mcrTags_sets_counted.csv -  We found 258 sets.
+  *  repositories_with_dependencies_similarity.csv - We found 16 intersection.
+  *  repositories_with_mcrTags_similarity.csv - We found 4766 intersection.
   
-* On running dependencies_counter.py on the csv files generated during the data collection replication part, we were able to find the count of all the four dependency pair mentioned in the original work. 
+* On running dependencies_counter.py on the csv files generated during the data collection replication part, we were able to find the count of one of the four dependency pair mentioned in the original work and 3 new dependency pairs. 
 
   * The dependency pair count of the original work is shown in the image below
-   ![original work](https://github.com/nsharma-01-star/applying_api_tango/blob/main/applying-apis-main/depenedency_pair_replication_team_tango/output_images/original_output.png)
+   ![original work](https://github.com/nsharma-01-star/Abstraction_API_Tango/blob/main/output/output_images/original_output.png)
    
   * The replicated result consisting of dependency pair count by our team tango is shown below
-   ![replicated_work](https://github.com/nsharma-01-star/applying_api_tango/blob/main/applying-apis-main/depenedency_pair_replication_team_tango/output_images/replication_output_tango.png)
+   ![replicated_work](https://github.com/nsharma-01-star/Abstraction_API_Tango/blob/main/output/output_images/replication_output_tango.png)
    
-   * when compared to original work, we found larger count for dependency pairs as shown in the above images.
+  * The enhancement result consisting of dependency pair count by our team tango is shown below
+   ![enhancement_work](https://github.com/nsharma-01-star/Abstraction_API_Tango/blob/main/output/output_images/enhancement_output_tango.png)
+   
+  * The enhancement result consisting of new dependency pair count by our team tango is shown below
+   ![enhancement_work_new](https://github.com/nsharma-01-star/Abstraction_API_Tango/blob/main/output/output_images/enhancement_output_tango_new.png)
+   
+   * when compared to original work, we found different dependency pairs as shown in the above images.
   
 
-### Implementation of replication: 
+### Implementation of enhancement: 
 * Hardware requirements: 
   * OS: Windows, Linux or MacOS 
   * Memory: 16 GB RAM recommended 
@@ -58,6 +69,6 @@ Collected repositories
   * Java 11 (Maven project) 
   * Python 3.9.6 (plotly==5.1.0, pyspark==3.1.2)
 * Validation
-  * One can compare the above mentioned csv files with the original work, one would infer that the work is replicated.
+  * One can compare the above mentioned csv files with the original work, one would infer that the work is enhanced by filtering out the repositories with multiple POM files and that results in modified dependency pairs.
 * Data
-  * The data replication was able to produce the csv files mentioned in the output delta section along with a temp folder consisting of necessary files required for the generation of the above mentioned csv files.
+  * The data replication was able to produce the csv files mentioned in the output delta section.
