@@ -1,0 +1,17 @@
+repositoryName1,repositoryName2,intersection,similarity
+jfree/jfreechart,jfree/jfreesvg,"[org.junit.jupiter:junit-jupiter-api, org.junit.jupiter:junit-jupiter-engine]",1.0
+NLPchina/nlp-lang,j256/simplemagic,"[commons-logging:commons-logging, junit:junit, log4j:log4j, org.apache.logging.log4j:log4j-api, org.slf4j:slf4j-api]",0.71
+thomasmueller/minperf,uber/h3-java,"[junit:junit, org.openjdk.jmh:jmh-core, org.openjdk.jmh:jmh-generator-annprocess]",0.75
+aionnetwork/aion,joshjdevl/libsodium-jni,"[com.google.guava:guava, junit:junit]",1.0
+JMCuixy/swagger2word,cheese10yun/spring-guide,"[io.springfox:springfox-swagger-ui, io.springfox:springfox-swagger2]",1.0
+Plugily-Projects/BuildBattle,Plugily-Projects/MurderMystery,"[com.alessiodp.parties:parties-api, commons-io:commons-io, de.simonsator:Party-and-Friends-MySQL-Edition-Spigot-API, de.simonsator:Spigot-Party-API-For-RedisBungee, de.simonsator:partyandfriends, io.papermc.paper:paper-api, me.clip:placeholderapi, me.tigerhix.lib:scoreboard, org.bstats:bstats-bukkit, org.jetbrains:annotations, plugily.projects.inventoryframework:IF, plugily.projects:commons-box-classic, plugily.projects:commons-box-database, plugily.projects:commons-box-minecraft]",0.78
+jboss-javassist/javassist,shekhargulati/99-problems,"[junit:junit, org.hamcrest:hamcrest-all]",1.0
+TheHolyWaffle/TeamSpeak-3-Java-API,jalkanen/speed4j,"[junit:junit, org.slf4j:slf4j-api, org.slf4j:slf4j-simple]",0.75
+4pr0n/ripme,RipMeApp/ripme,"[commons-cli:commons-cli, commons-configuration:commons-configuration, commons-io:commons-io, log4j:log4j, org.apache.httpcomponents:httpclient, org.apache.httpcomponents:httpmime, org.json:json, org.jsoup:jsoup]",0.73
+TooTallNate/Java-WebSocket,jalkanen/speed4j,"[junit:junit, org.slf4j:slf4j-api, org.slf4j:slf4j-simple]",0.75
+albfernandez/juniversalchardet,j256/two-factor-auth,"[commons-codec:commons-codec, junit:junit]",1.0
+bastillion-io/Bastillion,bastillion-io/Bastillion-EC2,"[com.github.mwiede:jsch, com.google.code.gson:gson, com.google.zxing:core, com.h2database:h2, commons-codec:commons-codec, commons-configuration:commons-configuration, commons-fileupload:commons-fileupload, io.bastillion:lmvc, org.apache.commons:commons-dbcp2, org.eclipse.jetty.websocket:javax-websocket-server-impl, org.eclipse.jetty:jetty-jaas]",0.79
+Bukkit/Bukkit,SpigotMC/Spigot-API,"[com.google.guava:guava, com.googlecode.json-simple:json-simple, commons-lang:commons-lang, junit:junit, org.avaje:ebean, org.hamcrest:hamcrest-library, org.yaml:snakeyaml]",1.0
+zeroturnaround/zt-exec,zeroturnaround/zt-process-killer,"[ch.qos.logback:logback-classic, commons-io:commons-io, junit:junit, org.apache.commons:commons-lang3, org.slf4j:slf4j-api]",0.71
+jalkanen/speed4j,knowm/Sundial,"[junit:junit, org.slf4j:slf4j-api, org.slf4j:slf4j-simple]",0.75
+eclipsesource/J2V8,stateless4j/stateless4j,"[junit:junit, org.mockito:mockito-core]",1.0

@@ -1,0 +1,14 @@
+groupId,artifactId,version,mcrCategories,mcrTags,downloaded,dlVersIfDiff,jarURL,pathToJAR
+org.apache.lucene,lucene-analyzers-morfologik,4.4.0,null,null,true,,https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-morfologik/4.4.0/lucene-analyzers-morfologik-4.4.0.jar,temp/dependencies/pranab/sifarish/org/apache/lucene/lucene-analyzers-morfologik/4.4.0/lucene-analyzers-morfologik-4.4.0.jar
+org.apache.jena,jena-arq,2.9.4,null,null,true,,https://repo1.maven.org/maven2/org/apache/jena/jena-arq/2.9.4/jena-arq-2.9.4.jar,temp/dependencies/pranab/sifarish/org/apache/jena/jena-arq/2.9.4/jena-arq-2.9.4.jar
+mawazo,chombo,1.0,null,null,false,null,,
+org.testng,testng,5.8,null,null,true,7.5,https://repo1.maven.org/maven2/org/testng/testng/7.5/testng-7.5.jar,temp/dependencies/pranab/sifarish/org/testng/testng/7.5/testng-7.5.jar
+org.apache.lucene,lucene-core,4.4.0,null,null,true,,https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.4.0/lucene-core-4.4.0.jar,temp/dependencies/pranab/sifarish/org/apache/lucene/lucene-core/4.4.0/lucene-core-4.4.0.jar
+org.clojure,clojure,1.2.0,null,null,true,,https://repo1.maven.org/maven2/org/clojure/clojure/1.2.0/clojure-1.2.0.jar,temp/dependencies/pranab/sifarish/org/clojure/clojure/1.2.0/clojure-1.2.0.jar
+com.google.guava,guava,12.0,null,null,true,,https://repo1.maven.org/maven2/com/google/guava/guava/12.0/guava-12.0.jar,temp/dependencies/pranab/sifarish/com/google/guava/guava/12.0/guava-12.0.jar
+mawazo,hoidla,1.0,null,null,false,null,,
+org.apache.lucene,lucene-analyzers-common,4.4.0,null,null,true,,https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.4.0/lucene-analyzers-common-4.4.0.jar,temp/dependencies/pranab/sifarish/org/apache/lucene/lucene-analyzers-common/4.4.0/lucene-analyzers-common-4.4.0.jar
+org.clojure,clojure-contrib,1.2.0,null,null,true,,https://repo1.maven.org/maven2/org/clojure/clojure-contrib/1.2.0/clojure-contrib-1.2.0.jar,temp/dependencies/pranab/sifarish/org/clojure/clojure-contrib/1.2.0/clojure-contrib-1.2.0.jar
+storm,storm,0.8.2,null,null,false,null,,
+org.slf4j,slf4j-log4j12,1.7.7,null,null,true,,https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar,temp/dependencies/pranab/sifarish/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar
+org.apache.commons,commons-lang3,3.1,null,null,true,,https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar,temp/dependencies/pranab/sifarish/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
