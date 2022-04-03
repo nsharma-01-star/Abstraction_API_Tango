@@ -26,6 +26,10 @@ Collected repositories
 ## Findings of enhancements 
 ### Process delta:
  * RepositoriesPicker modified to exclude repositories with multiple POM files - https://github.com/nsharma-01-star/Abstraction_API_Tango/blob/main/src/main/java/de/uni_koblenz/gorjatschev/applyingapis/RepositoriesPicker.java
+ * On filtering all the repositories with only one POM file, we are trying to exclude those repositories with multiple POM files, a case where multiple POM files are combined into one single POM file (https://github.com/nsharma-01-star/Abstraction_API_Tango/blob/main/output/output_images/thesis_quote.png). This might lead to dependency pairs which actually may not exist. So the strategy was to separate repositories with single POM file and multiple POM files.
+ * We noticed that repositories with single POM file are just 1111 while repositories with multiple POM files forms the majority of the dataset. And investigating repositories with multiple POM file will not make any difference when compared to the original results of the thesis.
+ * The strategy for this assignment was to investigate repositories with single POM file and we could find one of the four dependency pairs along with 3 new dependency pairs with this investigation.
+ * Our conclusion is that, projects with multiple POM files impact dependency/usage analysis.
 
 ### Output delta:
 * The code ran for 19 hour(s), 37 mintues(s) and 38 second(s). However, the following csv files were generated
